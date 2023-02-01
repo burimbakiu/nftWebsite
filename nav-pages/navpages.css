@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(9, 9, 50);
+  color: white;
+  /* overflow: hidden; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mail {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+button {
+  border-radius: 25px;
+  background: linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 60px;
+  text-decoration: none;
+  border: 1px solid white;
+  margin: 20px;
+}
+
+button:hover {
+  background: linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+  background-color: #bc80ea;
+}
+
+.nav-branding {
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 2rem;
+  font-family: "Outfit", sans-serif;
+  cursor: pointer;
+  background-color: rgba(167, 70, 196, 0.315);
+}
+
+a:visited {
+  color: inherit !important; /*  VISITED LINKS DONT GET A RED  COLOR  */
+}
+
+h3 {
+  line-height: 1.8;
+}
